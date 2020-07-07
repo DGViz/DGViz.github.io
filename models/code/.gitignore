@@ -1,0 +1,9 @@
+data/
+data.*/
+result/
+result.*/
+__pycache__/
+*/__pycache__/
+*.pyc
+*/*.pyc
+*/*/*.pyc
