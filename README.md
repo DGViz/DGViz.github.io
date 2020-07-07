@@ -1,18 +1,19 @@
-## run program
+# DG-Viz: Deep Visual Analytics with Domain Knowledge Guided Recurrent Neural Networks on Electronic Medical Records
+
+#### online demo
+
+DGViz.github.io
+
+#### how to run the program?
 
 cd <Program Directory>
 
 ```python app.py```
 
-### requirements:
+##### requirements:
 
 flask
 flask_pymongo
 pymongo
 
-### database
-
-mongod --dbpath <Program Directory/database>
-
-mongoimport --db ehrdb --collection patient --type csv --drop --file ehr_demo.csv --headerline
 
